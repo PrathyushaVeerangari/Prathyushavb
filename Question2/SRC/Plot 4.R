@@ -1,0 +1,5 @@
+library(readr)
+StudentsPerformance <- read_csv("StudentsPerformance.csv")
+View(StudentsPerformance)
+attach(StudentsPerformance)
+plot(`math score`,`reading score`,main="Mathscore Vs Readingscore",col="violet")
